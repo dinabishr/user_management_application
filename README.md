@@ -2,8 +2,8 @@
 Simple application to manage user's email, name, rating, userType, password, birth date, and phone number #vite #typescript #reactjs #materialUI #lazy-loading 
 This application is capable of: 
 Adding new user
-Delete existing user
-Edit user data from table directly
+, Delete existing user
+, Edit user data from table directly
 
 To run type : 
 npm run dev 
@@ -24,4 +24,4 @@ Delete record:
 
 
 
-©copyright dinabishr@aucegypt.edu
+
