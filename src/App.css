@@ -1,0 +1,160 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+
+
+
+
+
+.navbar{
+  background: white;
+  padding: 0.5em;
+  /* border-radius: 20em; */
+}
+
+.navbar .logo{
+
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1em;
+  height: min-content
+
+}
+
+.navbar .logo span{
+  color:#592953;
+}
+
+.navbar nav {
+  display: flex;
+  justify-content: space-evenly;
+  background: none;
+  position: sticky;
+  /* height: auto; */
+  width: 100%;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  align-items: stretch;
+}
+.navbar nav ul.options {
+  /* margin: 0.6em; */
+  /* margin-right: 1em; */
+  margin-left: 40em;
+}
+.navbar nav ul{
+  list-style: none;
+  font-style: normal;
+  display: flex;
+
+}
+
+.navbar nav li.selected a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: 1em 1em;
+  text-decoration: none;
+}
+
+.navbar nav li a:hover{
+  font-weight: bold;
+  color: #592953;
+}
+
+.navbar nav .nav-btn{
+
+  font-style: bold;
+  font-size: 1em;
+  text-decoration: none;
+  border: 2px solid #592953;
+  border-radius: 3em;
+  margin-top: -1.5em;
+  padding: 0.4em 0em;
+  /* background:#592953; */
+  color: white;
+  width: 10em;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+.container .cnt-btn{
+
+  font-style: bold;
+  font-size: 1em;
+  text-decoration: none;
+  border: 2px solid #592953;
+  border-radius: 3em;
+  margin-top: 1em;
+  padding: 1em 0em;
+  background:#592953;
+  color: white;
+  width: 15em;
+}
+
+.container .left-col {
+  margin-top:7em;
+  width: 100%;
+}
+.container .left-col .subhead{
+  font-size: 60px;
+  text-align: center;
+  color: black;
+ 
+}
+.container .left-col .subhead_2{
+  font-size: 50px;
+  text-align: center;
+  color: #592953;
+  margin-top: -0.2em;
+}
