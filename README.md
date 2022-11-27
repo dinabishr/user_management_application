@@ -24,4 +24,4 @@ Delete record:
 
 
 
-@copyright dinabishr@aucegypt.edu
+©copyright dinabishr@aucegypt.edu
